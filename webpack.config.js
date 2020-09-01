@@ -12,7 +12,7 @@ module.exports = {
                 test: /\.(js|jsx)$/,
                 exclude: /(node_modules)/,
                 loader: "babel-loader",
-                options: { presets: [@"@babel/env"] },
+                options: { presets: ["@@babel/env"] },
             },
             {
                 test: /\.css$/,
@@ -20,7 +20,7 @@ module.exports = {
             },
         ],
     },
-    resolve: {extensions: ["*" ".js", ".jsx"] },
+    resolve: {extensions: ["*", ".js", ".jsx"] },
     output: {
         path: path.resolve(__dirname, "dist/"),
         publicPath: "/dist/",
@@ -28,7 +28,7 @@ module.exports = {
     },
     devServer: {
         contentBase: path.join(__dirname, "/"),
-        port: 3000
+        port: 3000,
         publicPath: "http://localhost:3000/dist/",
         watchContentBase: true,
         historyApiFallback: true,
