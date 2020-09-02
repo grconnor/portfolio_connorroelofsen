@@ -14,7 +14,7 @@ describe("User can navigate the app", () => {
         });
 
         it("displays component name in url", () => {
-            cy.url().should("contain", "About Me");
+            cy.url().should("contain", "about");
         });
 
         it("does not display My Projects header", () => {
