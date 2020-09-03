@@ -1,12 +1,12 @@
 
 describe("User can see list of projects", () => {
-    BeforeEach(() => {
+    beforeEach(() => {
         cy.visit("http://localhost:3000");
         cy.get("#projects-tab").click();
     });
 
     it("displays first project", () => {
-        cy.get("#projects-1").within(() => {
+        cy.get("#project-1").within(() => {
             cy.get(".image").should("exist");
             cy.get(".ui.header").should("contain", "My First Website");
             cy.get(".description").should(
