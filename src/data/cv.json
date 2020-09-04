@@ -1,0 +1,16 @@
+
+
+[
+    {
+        "id": 1,
+        "name": "Job Experience",
+        "image": "https://blog.arkieva.com/wp-content/uploads/2015/11/ROIcalc.jpg",
+        "description": "Machine operator and Teamleader"
+    },
+    {
+        "id": 2,
+        "name": "Education",
+        "image": "https://africanreporter.co.za/wp-content/uploads/sites/32/2017/01/ATM.jpg",
+        "description": "Fullstack Developer"
+    }
+]
