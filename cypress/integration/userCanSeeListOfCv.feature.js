@@ -10,7 +10,7 @@ describe("User can see cv list", () => {
             cy.get(".image").should("exist");
             cy.get(".ui.header").should("contain", "Job Experience");
             cy.get(".description").should(
-                "contain", "Machine operator and Teamleader"
+                "contain", "Teamleader"
             );
         });
     });
@@ -24,6 +24,5 @@ describe("User can see cv list", () => {
             );
         });
     });
-
 
 });

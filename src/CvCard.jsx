@@ -6,11 +6,11 @@ const CvCard = ({ cv }) => {
         <>
             <div class="ui card">
                 <div class="image">
-                    <img src={project.image} />
+                    <img src={cv.image} />
                 </div>
                 <div class="content">
-                    <h3 class="ui header">{project.name}</h3>
-                    <div class="description">{project.description}</div>
+                    <h3 class="ui header">{cv.name}</h3>
+                    <div class="description">{cv.description}</div>
                 </div>
             </div>
         </>
