@@ -3,19 +3,19 @@
     {
         "id": 1,
         "name": "My First Website",
-        "image": "https://www.saintfrancisfoundation.org/wp-content/uploads/Summer-beach-image.jpg",
+        "image": "https://blog.arkieva.com/wp-content/uploads/2015/11/ROIcalc.jpg",
         "description": "This was my first project. The guy lost, but won the popular vote!"
     },
     {
         "id": 2,
         "name": "UI Design",
-        "image": "https://www.saintfrancisfoundation.org/wp-content/uploads/Summer-beach-image.jpg",
+        "image": "https://africanreporter.co.za/wp-content/uploads/sites/32/2017/01/ATM.jpg",
         "description": "Designing user interfaces is fun. I want to learn more about that...!"
     },
     {
         "id": 3,
         "name": "Mobile UX",
-        "image": "https://www.saintfrancisfoundation.org/wp-content/uploads/Summer-beach-image.jpg",
+        "image": "https://internationalschoolofthestockholmregion.stockholm.se/sites/default/files/styles/ssk_gallery_image/public/books2.jpg?itok=bx4xnSi6",
         "description":"I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
     }
 ]

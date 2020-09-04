@@ -1,7 +1,6 @@
 
 import React from "react";
 import { UndrawDesignerLife } from "react-undraw-illustrations";
-import UndrawDesigner from "react-undraw-illustrations";
 
 const About = () => {
     return (
@@ -10,6 +9,7 @@ const About = () => {
                 <div class="column">
                     <UndrawDesignerLife primaryColor='black' height='300px'  />
                 </div>
+                
                 <div class="column">
                     <h1 id="about-header" className="ui header">About Me</h1>
                     <p>

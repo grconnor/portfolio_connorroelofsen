@@ -4,6 +4,8 @@ describe("User can navigate the app", () => {
         cy.visit("http://localhost:3000");
     });
 
+    //About Me tab tests
+
     describe("to About tab and it", () => {
         beforeEach(() => {
             cy.get("#about-tab").click();
@@ -26,6 +28,8 @@ describe("User can navigate the app", () => {
         });
     });
 
+    //Projects tab tests
+
     describe("to My Projects tab and it", () => {
         beforeEach(() => {
             cy.get("#projects-tab").click();
@@ -47,6 +51,17 @@ describe("User can navigate the app", () => {
             cy.get("#hello").should("not.exist");
         });
     });
+
+    //CV tab tests
+
+    describe("to my Cv tab and it", () => {
+        beforeEach(() => {
+            cy.get("#cv-tab").click();
+        })
+    })
+
+
+    //Back to Portfolio tab tests
 
     describe("back to My Portfolio/Hello tab and it", () => {
         beforeEach(() => {

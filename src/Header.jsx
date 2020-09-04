@@ -26,6 +26,8 @@ const Header = () => {
                         >
                             Projects
                     </NavLink>
+                    
+                    <NavLink
                 </div>
             </div>
         </nav>
