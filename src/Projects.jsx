@@ -39,7 +39,21 @@ class Projects extends Component {
                     </div>
                     <div className="column">
                         <h1 id="projects-header" className="ui header">My Projects</h1>
-                        <p>Testing with dashboard! Hey hey</p>
+
+
+
+                        <p>
+                            Here you can see my projects
+                                <br></br>
+                            Link to GitHub:
+
+
+                        </p>
+
+
+
+
+
                     </div>
                 </div>
                 <div className= "ui stackable four column grid"> {projectsList} </div>
