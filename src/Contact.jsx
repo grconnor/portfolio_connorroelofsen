@@ -12,12 +12,13 @@ const Contact = () => {
                 
                 <div class="column">
                     <h1 id="contact-header" className="ui header">Contact</h1>
+                    <br></br>
                     <p>
-                    Namn: Sebastian Niewiadomski                <br></br>
-                    Födelseår: 1997-10-01                       <br></br>
-                    Address: Styrfarten 17, 417 64 Göteborg     <br></br>
-                    Telefonnummer: 0769115199                   <br></br>
-                    Email: sebbe132132@gmail.com	            
+                    <b>Namn:</b> Sebastian Niewiadomski                <br></br>
+                    <b>Födelseår:</b> 1997-10-01                       <br></br> <br></br>
+                    <b>Address:</b> Styrfarten 17 Eriksberg, 417 64 Göteborg     <br></br> <br></br>
+                    <b>Telefonnummer: </b>0769115199                   <br></br>
+                    <b>Email:</b> sebbe132132@gmail.com	            
                     </p>
                 </div>
             </div>

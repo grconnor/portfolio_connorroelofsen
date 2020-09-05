@@ -39,13 +39,18 @@ class Projects extends Component {
                     </div>
                     <div className="column">
                         <h1 id="projects-header" className="ui header">My Projects</h1>
-
-
-
-                        <p>
-                            Here you can see my projects
                                 <br></br>
-                            Link to GitHub:
+                        <p>
+                            Här kan ni se alla de projekt jag har gjort hos Craft Academy. 
+                            Besök gärna min GitHub för att kunna se de projekt som visas nedan.
+                                <br></br>
+                                <br></br>
+                                <br></br>
+                                <br></br>
+                                <br></br>
+                                <br></br>
+                                <br></br>
+                            <a id="link" href="https://github.com/SebastianN97">👉 Visit Sebastian Niewiadomski GitHub</a>
 
 
                         </p>
