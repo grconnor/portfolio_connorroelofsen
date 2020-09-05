@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import CvCard from "./CvCard";
-import { UndrawDashboard } from "react-undraw-illustrations";
+import { UndrawResume  } from "react-undraw-illustrations";
 
 class Cv extends Component {
     state = {
@@ -35,7 +35,7 @@ class Cv extends Component {
             <div className="ui main container">
                 <div className="ui stackable two column grid">
                     <div className="column">
-                        <UndrawDashboard primaryColor='black' height='300px' />
+                        <UndrawResume primaryColor='black' height='300px' />
                     </div>
                     <div className="column">
                         <h1 id="cv-header" className="ui header">CV</h1>

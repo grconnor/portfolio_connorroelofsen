@@ -2,20 +2,20 @@
 [
     {
         "id": 1,
-        "name": "My First Website",
+        "name": "BMI Calculator",
         "image": "https://blog.arkieva.com/wp-content/uploads/2015/11/ROIcalc.jpg",
-        "description": "This was my first project. The guy lost, but won the popular vote!"
+        "description": "With this application you are able to find out if you are either healthy, overweight, obese or extremely obese!"
     },
     {
         "id": 2,
-        "name": "UI Design",
+        "name": "ATM Functions",
         "image": "https://africanreporter.co.za/wp-content/uploads/sites/32/2017/01/ATM.jpg",
-        "description": "Designing user interfaces is fun. I want to learn more about that...!"
+        "description": "With this application you are able to create your own account, deposit and also withdraw money from the account you have been creating!"
     },
     {
         "id": 3,
-        "name": "Mobile UX",
+        "name": "A Simple Library",
         "image": "https://internationalschoolofthestockholmregion.stockholm.se/sites/default/files/styles/ssk_gallery_image/public/books2.jpg?itok=bx4xnSi6",
-        "description":"I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
+        "description":"In this Library application you are able to see a few books stored. You can see the return date on the ones that aren't available and also checkout the one you desire."
     }
 ]

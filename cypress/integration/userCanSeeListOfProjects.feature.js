@@ -8,9 +8,9 @@ describe("User can see list of projects", () => {
     it("displays first project", () => {
         cy.get("#project-1").within(() => {
             cy.get(".image").should("exist");
-            cy.get(".ui.header").should("contain", "My First Website");
+            cy.get(".ui.header").should("contain", "BMI Calculator");
             cy.get(".description").should(
-                "contain", "This was my first project. The guy lost, but won the popular vote!"
+                "contain", "With this application you are able to find out if you are either healthy, overweight, obese or extremely obese!"
             );
         });
     });
@@ -18,9 +18,9 @@ describe("User can see list of projects", () => {
     it("displays second project", () => {
         cy.get("#project-2").within(() => {
             cy.get(".image").should("exist");
-            cy.get(".ui.header").should("contain", "UI Design");
+            cy.get(".ui.header").should("contain", "ATM Functions");
             cy.get(".description").should(
-                "contain", "Designing user interfaces is fun. I want to learn more about that...!"
+                "contain", "With this application you are able to create your own account, deposit and also withdraw money from the account you have been creating!"
             );
         });
     });
@@ -28,9 +28,9 @@ describe("User can see list of projects", () => {
     it("displays second project", () => {
         cy.get("#project-3").within(() => {
             cy.get(".image").should("exist");
-            cy.get(".ui.header").should("contain", "Mobile UX");
+            cy.get(".ui.header").should("contain", "A Simple Library");
             cy.get(".description").should(
-                "contain", "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
+                "contain", "In this Library application you are able to see a few books stored. You can see the return date on the ones that aren't available and also checkout the one you desire."
             );
         });
     });

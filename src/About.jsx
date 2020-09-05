@@ -1,13 +1,13 @@
 
 import React from "react";
-import { UndrawDesignerLife } from "react-undraw-illustrations";
+import { UndrawProfilePic } from "react-undraw-illustrations";
 
 const About = () => {
     return (
         <div className="ui main container">
             <div class="ui stackable two column grid">
                 <div class="column">
-                    <UndrawDesignerLife primaryColor='black' height='300px'  />
+                    <UndrawProfilePic primaryColor='black' height='300px'  />
                 </div>
                 
                 <div class="column">
