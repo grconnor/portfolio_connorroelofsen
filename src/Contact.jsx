@@ -2,7 +2,7 @@
 import React from "react";
 import { UndrawProfilePic } from "react-undraw-illustrations";
 
-const About = () => {
+const Contact = () => {
     return (
         <div className="ui main container">
             <div class="ui stackable two column grid">
@@ -11,7 +11,7 @@ const About = () => {
                 </div>
                 
                 <div class="column">
-                    <h1 id="about-header" className="ui header">About Me</h1>
+                    <h1 id="contact-header" className="ui header">Contact</h1>
                     <p>
                     Hej mitt namn är Sebastian, är 22 år gammal och är en väldigt aktiv och social person. Jag bor i Västra Eriksberg. 
                     Är väldigt hjälpsam, bra på sammarbete och håller alltid mina tider. 
@@ -29,4 +29,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default Contact;

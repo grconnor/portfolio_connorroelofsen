@@ -1,20 +1,48 @@
 
-import React from "react";
-import { UndrawResume } from "react-undraw-illustrations";
+import React, { Component } from "react";
+import axios from "axios";
+import CvCard from "./CvCard";
+import { UndrawResume  } from "react-undraw-illustrations";
 
-const Cv = () => {
-    return (
-        <div className="ui main container">
-            <div class="ui stackable two column grid">
-                <div class="column">
-                    <UndrawResume primaryColor='black' height='300px'  />
+class Cv extends Component {
+    state = {
+        cv: [],
+    };
+
+    componentDidMount() {
+        axios.get('./src/data/cv.json')
+            .then(Response => {
+                this.setState({
+                    cv: Response.data
+                })
+            })
+    }
+
+    render() {
+        const cv = this.state.cv;
+        let cvList;
+
+        if (cv.length > 0) {
+        cvList = cv.map((cv) => {
+            return (
+                <div id={"cv-" + cv.id} key={cv.id}>
+                    <CvCard cv={cv}/>
                 </div>
-                
-                <div class="column">
+            );
+        });
+    }
+        return (
+            <div className="ui main container">
+                <div className="ui stackable two column grid">
+                    <div className="column">
+                        <UndrawResume primaryColor='black' height='300px' />
+                    </div>
+                    <div className="column">
 
-                    <h1 id="cv-header" className="ui header">CV</h1>
 
-                    <h3>Job Experience:</h3>
+                        <h1 id="cv-header" className="ui header">CV</h1>
+
+                        <h3>Job Experience:</h3>
                         <p>
                         2018 - 2019 	    <br></br>
                         Maskinoperatör: Andrénplast (sommarjobb/extrajobb)
@@ -48,10 +76,12 @@ const Cv = () => {
                         Engelska, Utan problem
                         </p>
 
+                    </div>
                 </div>
-            </div>
-        </div>
-    );
-};
+                <div className= "ui stackable four column grid"> {cvList} </div>
+            </div>           
+        );
+    }
+}
 
 export default Cv;
