@@ -51,14 +51,7 @@ class Projects extends Component {
                                 <br></br>
                                 <br></br>
                             <a id="link" href="https://github.com/SebastianN97">👉 Visit Sebastian Niewiadomski GitHub</a>
-
-
                         </p>
-
-
-
-
-
                     </div>
                 </div>
                 <div className= "ui stackable four column grid"> {projectsList} </div>

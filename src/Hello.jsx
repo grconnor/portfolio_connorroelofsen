@@ -11,7 +11,12 @@ const Hello = () => {
                 </div>
                 
                 <div class="column">
-                    <h1 id="hello-header" className="ui header">Hello World</h1>
+                    <h1 id="hello-header" className="ui header">My Portfolio</h1>
+                    <h1>
+                        Hej jag heter Sebastian Niewiadomski och detta är mitt portfolio! <br></br>
+                        Här kommer jag presentera lite om mig själv, där ni kan se mina projekt och även mitt cv.
+
+                    </h1>
 
                 </div>
             </div>
