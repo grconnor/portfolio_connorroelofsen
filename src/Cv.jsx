@@ -45,7 +45,7 @@ const Cv = () => {
                         <p>
                         Svenska, modersmål
                         <br></br>
-                        Engelska, Utan problem
+                        Engelska, advancerad nivå
                         </p>
 
                 </div>
