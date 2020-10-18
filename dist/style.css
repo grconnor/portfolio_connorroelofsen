@@ -13,6 +13,10 @@ footer {
   color: grey;
 }
 
+#hello-container {
+  margin-top: 200px;
+}
+
 .main.container {
   margin-top: 8em;
 }
@@ -23,7 +27,7 @@ footer {
 
 body {
   height: fit-content;
-  background-color: rgb(184, 157, 107);
+  background-color: white;
 }
 
 #hey {
@@ -37,3 +41,13 @@ p {
 #link {
   color: white;
 }
+
+#profile-img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+#header {
+  font-size: 30px;
+}
+

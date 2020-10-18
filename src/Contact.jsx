@@ -16,7 +16,7 @@ const Contact = () => {
                     <p>
                     <b>Namn:</b> Sebastian Niewiadomski                <br></br>
                     <b>Födelseår:</b> 1997-10-01                       <br></br> <br></br>
-                    <b>Address:</b> Styrfarten 17 Eriksberg, 417 64 Göteborg     <br></br> <br></br>
+                    <b>Address:</b> Styrfarten 17, 417 64 Göteborg     <br></br> <br></br>
                     <b>Telefonnummer: </b>0769115199                   <br></br>
                     <b>Email:</b> sebbe132132@gmail.com	            
                     </p>

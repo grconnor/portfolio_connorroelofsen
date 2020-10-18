@@ -2,22 +2,36 @@ import React from "react";
 
 const Hello = () => {
   return (
-    <div className="ui main container">
+    <div id="hello-container" className="ui main container">
       <div class="ui stackable two column grid">
         <div class="column">
-          <img id="profile-img" src="img" />
+          <img
+            id="profile-img"
+            src="https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/41841661_1784413611607957_6140001739312463872_o.jpg?_nc_cat=100&_nc_sid=09cbfe&_nc_ohc=VWNVNfmuTzkAX9SnTPn&_nc_ht=scontent.fgse1-1.fna&oh=db2cae679bb73bba370627b7c321952f&oe=5FB22CBE"
+          />
         </div>
 
         <div class="column">
-          <h1 id="hello-header" className="ui header">
-            My Portfolio
+          <h1 id="about-header" className="ui header">
+            About Me
           </h1>
-          <h1>
-            Hej jag heter Sebastian Niewiadomski och detta är mitt portfolio!{" "}
+          <br></br>
+          <p>
+            Hej mitt namn är Sebastian, är 23 år gammal och är en väldigt aktiv
+            och social person. Jag bor i Västra Eriksberg. Är väldigt hjälpsam,
+            bra på sammarbete och håller alltid mina tider. Jag är en väldigt
+            öppen person och lätt att prata med, älskar att träffa nytt folk.
+            <br></br> <br></br>
+            Ni kan alltid lita på mig som medarbetare och jag kommer alltid
+            ställa upp. Är alltid positiv oavsett om arbetet kan vara stressigt.
+            Jag är en väldigt hårt arbetande person, vet att det alltid lönar
+            sig då man gör sitt bästa. Ser fram emot att få komma och presentera
+            mig ännu mer och lära känna er bättre.
             <br></br>
-            Här kommer jag presentera lite om mig själv, där ni kan se mina
-            projekt och även mitt cv.
-          </h1>
+            <br></br>
+            Med Vänliga Hälsningar, <br></br>
+            Sebastian Niewiadomski
+          </p>
         </div>
       </div>
     </div>
@@ -25,17 +39,3 @@ const Hello = () => {
 };
 
 export default Hello;
-
-// import React from "react";
-
-// const Hello = () => {
-//   return (
-//     <div class="ui column grid" id="main-container">
-//       <div class="column">
-//         <img id="profile-img" src="./src/img/" />
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Hello;
