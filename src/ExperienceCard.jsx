@@ -16,10 +16,13 @@ const ExperienceCard = ({ experience }) => {
         </div>
 
         <div class="column" id="experience-title">
-          {experience.title}, {experience.time}
+          {experience.title}
         </div>
         <div class="column" id="experience-description">
           {experience.description}
+        </div>
+        <div class="column" id="experience-time">
+          {experience.time}
         </div>
       </div>
     </>

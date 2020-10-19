@@ -1,64 +1,62 @@
-
 import React, { Component } from "react";
 import axios from "axios";
 import ProjectCard from "./ProjectCard";
-import { UndrawProgramming } from "react-undraw-illustrations";
 
 class Projects extends Component {
-    state = {
-        projects: [],
-    };
+  state = {
+    projects: [],
+  };
 
-    componentDidMount() {
-        axios.get('./src/data/projects.json')
-            .then(Response => {
-                this.setState({
-                    projects: Response.data
-                })
-            })
-    }
+  componentDidMount() {
+    axios.get("./src/data/projects.json").then((Response) => {
+      this.setState({
+        projects: Response.data,
+      });
+    });
+  }
 
-    render() {
-        const projects = this.state.projects;
-        let projectsList;
+  render() {
+    const projects = this.state.projects;
+    let projectsList;
 
-        if (projects.length > 0) {
-        projectsList = projects.map((project) => {
-            return (
-                <div id={"project-" + project.id} key={project.id}>
-                    <ProjectCard project={project}/>
-                </div>
-            );
-        });
-    }
+    if (projects.length > 0) {
+      projectsList = projects.map((project) => {
         return (
-            <div className="ui main container">
-                <div className="ui stackable two column grid">
-                    <div className="column">
-                        <UndrawProgramming primaryColor='black' height='300px' />
-                    </div>
-                    <div className="column">
-                        <h1 id="projects-header" className="ui header">My Projects</h1>
-                                <br></br>
-                        <p>
-                            Här kan ni se alla de projekt jag har gjort hos Craft Academy. 
-                            Besök gärna min GitHub för att kunna se de projekt som visas nedan.
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                            <a id="link" href="https://github.com/SebastianN97">👉 Visit Sebastian Niewiadomski GitHub</a>
-                        </p>
-                    </div>
-                </div>
-                <div className= "ui stackable four column grid"> {projectsList} </div>
-            </div>           
+          <div id={"project-" + project.id} key={project.id}>
+            <ProjectCard project={project} />
+          </div>
         );
+      });
     }
+    return (
+      <div className="ui main container">
+        <div className="ui stackable two column grid">
+          <div className="column">
+            <h1 id="projects-header" className="ui header">
+              My Projects
+            </h1>
+            <br></br>
+            <p>
+              Här kan ni se alla de projekt jag har gjort hos Craft Academy.
+              Besök gärna min GitHub för att kunna se de projekt som visas
+              nedan.
+              <br></br>
+              <br></br>
+              <a
+                id=""
+                href="https://github.com/SebastianN97"
+                target="_blank"
+              >
+                GitHub
+                <i class="github large icon"></i>{" "}
+              </a>
+            </p>
+          </div>
+        </div>
+        <div className="ui stackable four column grid"> {projectsList} </div>
+      </div>
+    );
+  }
 }
 
 export default Projects;
-
