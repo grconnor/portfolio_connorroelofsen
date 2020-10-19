@@ -59,7 +59,13 @@ p {
 
 /* Experience */
 
+#work-title {
+  margin-bottom: -50px;
+}
 
+#education-title {
+  margin-top: 100px;
+}
 
 #experience-title{
   color: blue;
