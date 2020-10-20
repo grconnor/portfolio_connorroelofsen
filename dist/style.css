@@ -57,14 +57,16 @@ p {
   font-size: 30px;
 }
 
-/* Experience */
+/* Experience and Education*/
 
 #work-title {
   margin-bottom: -50px;
+  font-size: 40px;
 }
 
-#education-title {
-  margin-top: 100px;
+#speedy-title {
+  margin-bottom: -50px;
+  font-size: 40px;
 }
 
 #experience-title{
@@ -80,5 +82,27 @@ p {
 
 #experience-time {
   margin-top: 5px;
+}
 
+#experience-grid {
+  margin-bottom: 150px;
+}
+
+#education-title{
+  color: red;
+  margin: 10px;
+  font-size: 30px;
+}
+
+#education-description {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+#education-time {
+  margin-top: 5px;
+}
+
+#education-grid {
+  margin-bottom: 150px;
 }
