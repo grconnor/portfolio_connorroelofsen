@@ -47,6 +47,8 @@ p {
   color: white;
 }
 
+/* Main page */
+
 #profile-img {
   margin-left: 80px;
   width: 300px;
@@ -55,9 +57,14 @@ p {
 
 #header {
   font-size: 30px;
+  font-family: 
 }
 
 /* Experience and Education*/
+
+#cv-grid {
+  margin-top: 160px;
+}
 
 #work-title {
   margin-bottom: -50px;
