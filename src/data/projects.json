@@ -1,21 +1,30 @@
-
 [
-    {
-        "id": 1,
-        "name": "BMI Calculator",
-        "image": "https://blog.arkieva.com/wp-content/uploads/2015/11/ROIcalc.jpg",
-        "description": "With this application you are able to find out if you are either healthy, overweight, obese or extremely obese!"
-    },
-    {
-        "id": 2,
-        "name": "ATM Functions",
-        "image": "https://africanreporter.co.za/wp-content/uploads/sites/32/2017/01/ATM.jpg",
-        "description": "With this application you are able to create your own account, deposit and also withdraw money from the account you have been creating!"
-    },
-    {
-        "id": 3,
-        "name": "A Simple Library",
-        "image": "https://internationalschoolofthestockholmregion.stockholm.se/sites/default/files/styles/ssk_gallery_image/public/books2.jpg?itok=bx4xnSi6",
-        "description":"In this Library application you are able to see a few books stored. You can see the return date on the ones that aren't available and also checkout the one you desire."
-    }
+  {
+    "id": 1,
+    "name": "Crime Tracker API",
+    "image": "https://blog.arkieva.com/wp-content/uploads/2015/11/ROIcalc.jpg",
+    "description": "Back-end for crime tracker application. #RubyOnRails #Rspec",
+    "git": "https://github.com/SebastianN97/crime_tracker_api_team_1"
+  },
+  {
+    "id": 1,
+    "name": "BMI Calculator",
+    "image": "https://blog.arkieva.com/wp-content/uploads/2015/11/ROIcalc.jpg",
+    "description": "With this application you are able to find out if you are either healthy, overweight, obese or extremely obese!",
+    "git": ""
+  },
+  {
+    "id": 2,
+    "name": "ATM Functions",
+    "image": "https://africanreporter.co.za/wp-content/uploads/sites/32/2017/01/ATM.jpg",
+    "description": "With this application you are able to create your own account, deposit and also withdraw money from the account you have been creating!",
+    "git": ""
+  },
+  {
+    "id": 3,
+    "name": "A Simple Library",
+    "image": "https://internationalschoolofthestockholmregion.stockholm.se/sites/default/files/styles/ssk_gallery_image/public/books2.jpg?itok=bx4xnSi6",
+    "description": "In this Library application you are able to see a few books stored. You can see the return date on the ones that aren't available and also checkout the one you desire.",
+    "git": ""
+  }
 ]
