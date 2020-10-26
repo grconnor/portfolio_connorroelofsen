@@ -47,6 +47,7 @@ p {
   color: white;
 }
 
+
 /* Main page */
 
 #profile-img {
@@ -57,8 +58,24 @@ p {
 
 #header {
   font-size: 30px;
-  font-family: 
 }
+
+
+/* Projects*/
+
+#project-card {
+  margin-top: 50px;
+  margin: 20px;
+}
+
+#project-github {
+  
+}
+
+#project-desc {
+  margin-bottom: 20px;
+}
+
 
 /* Experience and Education*/
 
