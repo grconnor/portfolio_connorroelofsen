@@ -5,7 +5,7 @@ const ProjectCard = ({ project }) => {
     <>
       <div id="project-card" class="ui card">
         <div class="image">
-          <img src={project.image} />
+          <img id="project-image" src={project.image} />
         </div>
         <div class="content">
           <h3 class="ui header">{project.name}</h3>
