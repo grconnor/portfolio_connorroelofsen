@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="footer-grid">
       <div className="ui container">
         <p id="footer">
           

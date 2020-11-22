@@ -3,21 +3,21 @@
     "name": "Craft Academy",
     "title": "Junior Software Developer",
     "image": "https://avatars2.githubusercontent.com/u/24991422?s=280&v=4",
-    "description": "Two year development education done in 4 months of intensive studies.",
+    "description": "Agile methodologies, Scrum, JavaScript, React, React Native, Ruby, Ruby on Rails, TDD, Cypress, RSpec, NodeJS, ...",
     "time": "2020 - 2020"
   },
   {
     "name": "Randstad",
     "title": "Teamleader",
     "image": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/d71a39ab2fab6d2fc83ebc59541ed0a2",
-    "description": "Been working for Randstad during summer as teamleader. Worked over the weekend and as often as i could while studying.",
+    "description": "Team management, project planning, ...",
     "time": "2018 - 2020"
   },
   {
     "name": "Andrenplast",
     "title": "Machine Operator",
     "image": "https://uploads2.craft.co/uploads/company/logo/14812xx/1481272/normal_077a1d78ac5e1fc9.png",
-    "description": "Summer and weekends.",
+    "description": "Machine maintenance",
     "time": "2017 - 2018"
   }
 ]
