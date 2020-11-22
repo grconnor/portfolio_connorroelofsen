@@ -2,7 +2,7 @@
 
 ### To visit my portfolio:
 
-[Sebastian Niewiadomski Portfolio](sebastiannportfolio.netlify.com)
+[Sebastian Niewiadomski Portfolio](https://sebastiannportfolio.netlify.app/)
 
 ---
 
