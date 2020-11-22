@@ -7,7 +7,7 @@ const Hello = () => {
         <div class="column">
           <img
             id="profile-img"
-            src="https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/41841661_1784413611607957_6140001739312463872_o.jpg?_nc_cat=100&_nc_sid=09cbfe&_nc_ohc=VWNVNfmuTzkAX9SnTPn&_nc_ht=scontent.fgse1-1.fna&oh=db2cae679bb73bba370627b7c321952f&oe=5FB22CBE"
+            src="https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/41841661_1784413611607957_6140001739312463872_o.jpg?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_ohc=nqUJ4-WLKZIAX9W2sVK&_nc_ht=scontent.fgse1-1.fna&oh=6af63e8bdbf21b3baa221d5abd05d156&oe=5FE1A2BE"
           />
         </div>
 
