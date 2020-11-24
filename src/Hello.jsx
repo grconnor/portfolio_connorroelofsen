@@ -42,6 +42,11 @@ const Hello = () => {
             <img align="left" alt="Cypress" width="26px" src="https://raw.githubusercontent.com/cypress-io/cypress-icons/master/src/cypress.iconset/icon_32x32.png"/>
           </div>
         </div>
+        <div class="column" id="words-box">
+          <p id="three-words">
+            Ambitious - Dependable - Leadership
+          </p>
+        </div>
       </div>
     </div>
   );
