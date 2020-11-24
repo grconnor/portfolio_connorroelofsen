@@ -58,6 +58,7 @@ class Experience extends Component {
         <div className="ui stackable three column grid" id="education-grid">
           {educationList}
         </div>
+        <h3 id="last-update">Last time updated: 2020-11-24</h3>
       </div>
     );
   }
