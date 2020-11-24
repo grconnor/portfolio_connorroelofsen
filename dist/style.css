@@ -31,7 +31,7 @@ footer {
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 #app {
@@ -56,8 +56,10 @@ p {
 
 #profile-img {
   margin-left: 80px;
-  width: 300px;
-  border-radius: 10px;
+  width: 390px;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: blue;
 }
 
 #header {
