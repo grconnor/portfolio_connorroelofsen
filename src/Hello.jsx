@@ -30,9 +30,17 @@ const Hello = () => {
             HTML, CSS, 
             RSpec, Cypress
           </p>
-        </div>
-        <div class="column">
-
+          <div class="column">
+            <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
+            <img align="left" alt="React" width="26px" src="https://img.icons8.com/plasticine/100/000000/react.png" />
+           
+            <img align="left" alt="Ruby" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ruby/ruby.png" />
+            <img align="left" alt="Rails" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/rails/rails.png" />
+            <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
+            <img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
+            <img align="left" alt="RSpec" width="26px" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_rspec_icon_130188.png" />
+            <img align="left" alt="Cypress" width="26px" src="https://raw.githubusercontent.com/cypress-io/cypress-icons/master/src/cypress.iconset/icon_32x32.png"/>
+          </div>
         </div>
       </div>
     </div>
