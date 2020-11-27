@@ -16,10 +16,9 @@ const Hello = () => {
           </h1>
           <br></br>
           <p>
-            Hej mitt namn är Sebastian, är 23 år gammal och är en väldigt aktiv
-            och social person. Jag bor i Västra Eriksberg. Är väldigt hjälpsam,
-            bra på sammarbete och håller alltid mina tider. Jag är en väldigt
-            öppen person och lätt att prata med, älskar att träffa nytt folk.
+            Recently graduated from Craft Academy where i have been working in a fast paced environment, learning how to work on real life applications and situations. 
+            I enjoy being challenged with new projects that require me to work outside my comfort zone, as continuing to learn new languages and development techniques are important for me to grow as a developer.
+            It says about me that my specialties include leadership and teamwork, to lift others with positive reinforcement to improve the working environment.
           </p>
           <h1>
             Working with
