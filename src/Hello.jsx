@@ -24,7 +24,7 @@ const Hello = () => {
             easier to maintain and understand in the long term. <br></br>
             I enjoy being challenged with new projects that require me to work outside my comfort zone, 
             as continuing to learn new languages and development techniques are important 
-            for me to grow as a developer. <br></br>
+            for me to grow as a developer. <br>
             It is said about me that my specialties include leadership, teamwork, having the ability to 
             lift others with positive reinforcement and generally improving the working environment in a positive way. 
           </p>
@@ -45,7 +45,7 @@ const Hello = () => {
             <img align="left" alt="Rails" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/rails/rails.png" />
             <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
             <img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-            <img align="left" alt="RSpec" width="26px" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_rspec_icon_130188.png" />
+            <img align="left" alt="RSpec" width="26px" src="https://robertobartolome.com/wp-content/uploads/2016/12/rspec.png" />
             <img align="left" alt="Cypress" width="26px" src="https://raw.githubusercontent.com/cypress-io/cypress-icons/master/src/cypress.iconset/icon_32x32.png"/>
           </div>
         </div>
