@@ -16,9 +16,17 @@ const Hello = () => {
           </h1>
           <br></br>
           <p>
-            Recently graduated from Craft Academy where i have been working in a fast paced environment, learning how to work on real life applications and situations. 
-            I enjoy being challenged with new projects that require me to work outside my comfort zone, as continuing to learn new languages and development techniques are important for me to grow as a developer.
-            It says about me that my specialties include leadership and teamwork, to lift others with positive reinforcement to improve the working environment.
+            Recently graduated from Craft Academy where I have been working in a fast 
+            paced environment, learning how to work on real life applications and situations. <br></br>
+            I got solid knowledge on working with javascript, react and react native for the front end 
+            and ruby on rails for the back end. <br></br>
+            Working with a test driven development approach, since I believe it makes the code 
+            easier to maintain and understand in the long term. <br></br>
+            I enjoy being challenged with new projects that require me to work outside my comfort zone, 
+            as continuing to learn new languages and development techniques are important 
+            for me to grow as a developer. <br></br>
+            It is said about me that my specialties include leadership, teamwork, having the ability to 
+            lift others with positive reinforcement and generally improving the working environment in a positive way. 
           </p>
           <h1>
             Working with
