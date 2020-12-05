@@ -1,0 +1,123 @@
+[
+  {
+    "name": "The Portfolio",
+    "image": "",
+    "description": "#JavaScript #React #Cypress",
+    "git": "https://github.com/SebastianN97/my_portfolio"
+  },
+  {
+    "name": "Crime Tracker Client",
+    "image": "https://wallpapercave.com/wp/wp2115744.jpg",
+    "description": "Front-end for crime tracker application. #JavaScript #React #Cypress",
+    "git": "https://github.com/SebastianN97/crime_tracker_client_team_1"
+  },
+  {
+    "name": "Crime Tracker API",
+    "image": "https://wallpapercave.com/wp/wp2115744.jpg",
+    "description": "Back-end for crime tracker application. #RubyOnRails #Rspec",
+    "git": "https://github.com/SebastianN97/crime_tracker_api_team_1"
+  },
+  {
+    "name": "El Gaucho Nyheter Mobile",
+    "image": "",
+    "description": "",
+    "git": "https://github.com/SebastianN97/mobile_el_gaucho_nyheter"
+  },
+  {
+    "name": "El Gaucho Nyheter Admin",
+    "image": "",
+    "description": "",
+    "git": "https://github.com/SebastianN97/client_admin_el_gaucho_nyheter"
+  },
+  {
+    "name": "El Guacho Nyheter Client",
+    "image": "",
+    "description": "",
+    "git": "https://github.com/SebastianN97/client_user_el_gaucho_nyheter"
+  },
+  {
+    "name": "El Gaucho Nyheter API",
+    "image": "",
+    "description": "",
+    "git": "https://github.com/SebastianN97/api_el_gaucho_nyheter"
+  },
+  {
+    "name": "Viaplay Challenge",
+    "image": "",
+    "description": "",
+    "git": "https://github.com/SebastianN97/viaplay_challenge_2020"
+  },
+  {
+    "name": "NodeJS Books Client",
+    "image": "",
+    "description": "",
+    "git": "https://github.com/SebastianN97/books_api_client_2020"
+  },
+  {
+    "name": "NodeJS Books API",
+    "image": "",
+    "description": "",
+    "git": "https://github.com/SebastianN97/books_api_2020"
+  },
+  {
+    "name": "Slowfood Client",
+    "image": "",
+    "description": "",
+    "git": "https://github.com/SebastianN97/slowfood-client-aug-2020-team-2"
+  },
+  {
+    "name": "Slowfood API",
+    "image": "",
+    "description": "",
+    "git": "https://github.com/SebastianN97/slowfood-api-aug-2020-team-2"
+  },
+
+  {
+    "name": "RPS",
+    "image": "",
+    "description": "",
+    "git": "https://github.com/SebastianN97/RPS_2020"
+  },
+  {
+    "name": "Cooper Client",
+    "image": "",
+    "description": "",
+    "git": "https://github.com/SebastianN97/cooper_client"
+  },
+  {
+    "name": "Cooper API",
+    "image": "",
+    "description": "",
+    "git": "https://github.com/SebastianN97/cooper_api"
+  },
+  {
+    "name": "Legacy Code",
+    "image": "",
+    "description": "",
+    "git": "https://github.com/SebastianN97/legacy_code_august_team_2_2020"
+  },
+  {
+    "name": "The Address Book",
+    "image": "",
+    "description": "",
+    "git": "https://github.com/SebastianN97/TheAddressBook_Challenge"
+  },
+  {
+    "name": "BMI Calculator",
+    "image": "",
+    "description": "",
+    "git": "https://github.com/SebastianN97/bmiCalculator"
+  },
+  {
+    "name": "ATM Functions",
+    "image": "",
+    "description": "",
+    "git": "https://github.com/SebastianN97/atm_challenge_2020"
+  },
+  {
+    "name": "A Simple Library",
+    "image": "",
+    "description": "",
+    "git": "https://github.com/SebastianN97/library-challenge"
+  }
+]

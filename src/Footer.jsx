@@ -8,7 +8,7 @@ const Footer = () => {
           
           <a
             id="footer-url"
-            href="https://www.linkedin.com/in/sebastian-niewiadomski-8a65421b7/"
+            href="https://www.linkedin.com/in/connor-roelofsen/"
             target="_blank"
           >
             Linkedin 
@@ -17,22 +17,13 @@ const Footer = () => {
           
           <a
             id="footer-url"
-            href="https://github.com/SebastianN97"
+            href="https://github.com/grconnor"
             target="_blank"
           >
             GitHub 
             <i class="github large icon"></i>{" "}
           </a>
-
-          <a
-            id="footer-url"
-            href="https://www.instagram.com/sebbekarsikko/"
-            target="_blank"
-          >
-            Instagram
-            <i class="instagram large icon"></i>{" "}
-          </a>
-
+          
         </p>
       </div>
     </footer>

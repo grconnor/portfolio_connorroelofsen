@@ -1,10 +1,63 @@
-# Sebastian Niewiadomski Portfolio
+# Portfolio for main domain.
 
-### To visit my portfolio:
+## Purpose:
 
-[Sebastian Niewiadomski Portfolio](https://sebastiannportfolio.netlify.app/)
+- Version control for my portfolio that is hosted on connorroelofsen.com
 
----
+- [Portfolio Domain](https://connorroelofsen.com)
+
+## Devs:
+
+- Connor Roelofsen.
+- 
+- 
+
+## To-do:
+
+- Fix display of my projects.
+- Fix footer of my projects.
+- Remove Bootstrap.
+- Remove images.
+- Remove old projects.
+- Contact me footer needs to go to bottom.
+- My projects footer needs to be visible on reload / arrival.
+
+
+### Necessary steps:
+
+```
+$ yarn install
+```
+
+```
+$ yarn
+```
+
+### To start cypress tests locally:
+
+```
+$ yarn cy:open
+```
+
+### To start the server locally:
+
+```
+$ yarn start
+```
+
+## Updates/Improvements
+
+- 
+- 
+- 
+
+## Acknowledgements 
+
+- Sebb for scaffold.
+- 
+- 
+
+-----------------------------------------------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

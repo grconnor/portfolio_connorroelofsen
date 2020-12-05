@@ -1,5 +1,5 @@
 {
-  "name": "react_portfolio",
+  "name": "portfolio_connorroelofsen",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -30,5 +30,8 @@
   "scripts": {
     "start": "webpack-dev-server --inline --mode development --open",
     "cy:open": "yarn start & cypress open"
-  }
+  },
+  "description": "Portfolio for connorroelofsen domain.",
+  "repository": "https://github.com/grconnor/portfolio_connorroelofsen.git",
+  "author": "<connorroelofsen15@gmail.com>"
 }
