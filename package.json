@@ -29,7 +29,10 @@
   },
   "scripts": {
     "start": "webpack-dev-server --inline --mode development --open",
-    "cy:open": "yarn start & cypress open"
+    "cy:open": "yarn start & cypress open",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "description": "Portfolio for connorroelofsen domain.",
   "repository": "https://github.com/grconnor/portfolio_connorroelofsen.git",
