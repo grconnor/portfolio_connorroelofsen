@@ -15,11 +15,9 @@
 ## To-do:
 
 - Fix display of my projects.
-- Fix footer of my projects.
 - Remove Bootstrap.
 - Remove images.
 - Remove old projects.
-- Contact me footer needs to go to bottom.
 - My projects footer needs to be visible on reload / arrival.
 
 
