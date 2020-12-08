@@ -10,22 +10,22 @@ const MainPage = () => {
         <br></br>
 
         <p>
-          Recently graduated from Craft Academy where I have been working in a fast 
-          paced environment, working on real life applications and situations. <br></br>
-          Following a TDD and Agile approach while developing as it sets the foundation for the application at hand.<br></br>
-          Love meeting new people, passing on knowledgelearning new techknowlogies, perfecting my technological way of thinking and working.<br></br>
-          It is often said about me that I'm driven, communicative, and skilled in problem solving and research.
-
+          I recently graduated from Craft Academy where I had been working in a fast 
+          paced environment, on modern applications and real life situations. <br></br>
+          Working with a BDD (behaviour Driven Development), TDD (Test Driven Development) and Agile approach during development as it sets the foundation for the application at hand.<br></br>
+          Love meeting new people, passing on my knowledge, learning new techknowlogies and perfecting my technological way of thinking and working.<br></br>
+          It is often said about me that I'm driven, flexible/mendable,communicative and skilled in problem solving and research.
         </p>
 
+        <br></br>
+
         <h1>
-          Main Stacks: 
+          My Main Languages and Frameworks: 
         </h1>
         <p>
-          JavaScript, React, React Native,
-          Ruby, Ruby on Rails, 
-          HTML, CSS, 
-          RSpec, Cypress
+          Ruby, Javascript, HTML, CSS,
+          React, React Native, Ruby on Rails, Node JS,
+          Cypress, RSpec, Jest, Enzyme.
         </p>
       </div>
     </div>
