@@ -17,7 +17,7 @@ const ComingSoon = () => {
           <button type="button" className="btn btn-outline-dark">
             View the source code.
           </button>
-          <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="profile"></img>
+          <img src="../src/img/comingdisplay.jpg" alt="profile"></img>
         </div>
       </div>
     </div>
