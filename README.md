@@ -14,6 +14,7 @@
 
 ## To-do:
 
+- Center all elements in CV dir.
 - Fix display of my projects.
 - Remove Bootstrap.
 - Remove images.
