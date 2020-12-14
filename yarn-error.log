@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js init
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add @react-pdf/renderer
 
 PATH: 
   /Users/connorroelofsen/.rvm/gems/ruby-2.7.0/bin:/Users/connorroelofsen/.rvm/gems/ruby-2.7.0@global/bin:/Users/connorroelofsen/.rvm/rubies/ruby-2.7.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/connorroelofsen/.rvm/bin
@@ -14,21 +14,12 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: canceled
-      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:137009:13)
-      at Interface.emit (events.js:314:20)
-      at Interface._ttyWrite (readline.js:875:16)
-      at ReadStream.onkeypress (readline.js:213:10)
-      at ReadStream.emit (events.js:314:20)
-      at emitKeys (internal/readline/utils.js:344:14)
-      at emitKeys.next (<anonymous>)
-      at ReadStream.onData (readline.js:1144:36)
-      at ReadStream.emit (events.js:314:20)
-      at addChunk (_stream_readable.js:307:12)
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
 
 npm manifest: 
   {
-    "name": "react_portfolio",
+    "name": "portfolio_connorroelofsen",
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",
@@ -58,8 +49,14 @@ npm manifest:
     },
     "scripts": {
       "start": "webpack-dev-server --inline --mode development --open",
-      "cy:open": "yarn start & cypress open"
-    }
+      "cy:open": "yarn start & cypress open",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "description": "Portfolio for connorroelofsen domain.",
+    "repository": "https://github.com/grconnor/portfolio_connorroelofsen.git",
+    "author": "<connorroelofsen15@gmail.com>"
   }
 
 yarn manifest: 

@@ -5,8 +5,8 @@ import Footer from "./Footer";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 import MyProjects from "./MyProjects";
 import ContactMe from "./ContactMe";
-import ComingSoon from "./ComingSoon";
 import MainPage from "./MainPage";
+import CVDownload from "./CVDownload"
 // import CV from "./CV";
 
 const App = () => {
@@ -17,7 +17,7 @@ const App = () => {
         <Route exact path="/" component={MainPage}></Route>
         <Route exact path="/myprojects" component={MyProjects}></Route>
         <Route exact path="/contactme" component={ContactMe}></Route>
-        <Route exact path="/comingsoon" component={ComingSoon}></Route>
+        <Route exact path="/cvdownload" component={CVDownload}></Route>
       </Switch>
       <Footer />
     </>
