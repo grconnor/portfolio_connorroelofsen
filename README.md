@@ -20,6 +20,8 @@
 - Remove images.
 - Remove old projects.
 - My projects footer needs to be visible on reload / arrival.
+- Fix my projects display.
+- Style mainpage image and text.
 
 
 ### Necessary steps:
