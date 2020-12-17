@@ -12,7 +12,7 @@ const Footer = () => {
             target="_blank"
           >
             Linkedin 
-            <i class="linkedin large icon"></i>{" "}
+            <i className="linkedin large icon"></i>{" "}
           </a>
           
           <a
@@ -21,7 +21,7 @@ const Footer = () => {
             target="_blank"
           >
             GitHub 
-            <i class="github large icon"></i>{" "}
+            <i className="github large icon"></i>{" "}
           </a>
           
         </p>

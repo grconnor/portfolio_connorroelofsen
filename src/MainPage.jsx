@@ -3,7 +3,7 @@ import React from "react";
 const MainPage = () => {
   return (
     <div id="mainpage-container" className="ui main container">
-      <div class="column">
+      <div className="column">
         <h1 id="about-header" className="ui header">
           Junior Software Developer living in Stockholm, Sweden
         </h1>

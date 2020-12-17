@@ -9,7 +9,7 @@ const ContactMe = () => {
           <UndrawAddUser primaryColor="black" height="300px" />
         </div>
 
-        <div class="column">
+        <div className="column">
           <h1 id="contactme-header" className="ui header">
             Contact Me
           </h1>

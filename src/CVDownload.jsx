@@ -1,24 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
-// import mycvPDF from './mycv.pdf';
-
-export default function CVDownload() {
-  return (
-    <>
-    <div>
-      <Document
-        file="mycv.pdf"
-        onLoadSuccess={onDocumentLoadSuccess}
-      >
-        <Page pageNumber={pageNumber} />
-      </Document>
-      <p>Page {pageNumber} of {numPages}</p>
-      <Document file={mycvPDF}>
-        <Page pageNumber={1} />
-      </Document>
-    </div>
-  );
-}
+import mycvPDF from './mycv.pdf';
 
 const CVDownload = () => {
   const [numPages, setNumPages] = useState(1);
@@ -29,9 +11,9 @@ const CVDownload = () => {
   }
 
   return (
-    <div>
+    <div className="cv-pdf">
       <Document
-        file="somefile.pdf"
+        file={mycvPDF}
         onLoadSuccess={onDocumentLoadSuccess}
       >
         <Page pageNumber={pageNumber} />
