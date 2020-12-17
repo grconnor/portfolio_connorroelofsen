@@ -9,12 +9,14 @@ const ProjectCard = ({ project }) => {
         </div>
         <div class="content">
           <h3 class="ui header">{project.name}</h3>
-          <div id="project-desc" class="description">{project.description}</div>
-            
+          <div id="project-desc" class="description">
+            {project.description}
+          </div>
+
           <a id="project-github" href={project.git} target="_blank">
-              <div class="visible content">
-                <i class="github large icon"></i>{" "}
-              </div>
+            <div class="visible content">
+              <i class="github large icon"></i>{" "}
+            </div>
           </a>
         </div>
       </div>

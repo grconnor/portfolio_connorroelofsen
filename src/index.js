@@ -6,7 +6,7 @@ import { Switch, Route, BrowserRouter } from "react-router-dom";
 import MyProjects from "./MyProjects";
 import ContactMe from "./ContactMe";
 import MainPage from "./MainPage";
-import CVDownload from "./CVDownload"
+import CVDownload from "./CVDownload";
 // import CV from "./CV";
 
 const App = () => {
