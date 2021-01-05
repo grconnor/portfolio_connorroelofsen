@@ -10,6 +10,14 @@ const MainPage = () => {
           </h1>
           <br></br>
 
+          <div class="column">
+            <img
+              id="profile-img"
+              src="../src/display.jpg"
+              height="400"
+            />
+          </div>
+
           <p>
             I recently graduated from Craft Academy where I had been working in
             a fast paced environment, on modern applications and real life
@@ -33,14 +41,6 @@ const MainPage = () => {
             Node JS, Cypress, RSpec, Jest, Enzyme.
           </p>
         </div>
-      </div>
-      <div class="column">
-        <img
-          id="profile-img"
-          src="../src/display.jpg"
-          height="350"
-          length="200"
-        />
       </div>
     </>
   );
