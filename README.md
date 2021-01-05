@@ -21,6 +21,7 @@
 - Remove old projects.
 - My projects footer needs to be visible on reload / arrival.
 - Style mainpage image and text.
+- Woodridge image and description.
 
 
 ### Necessary steps:
