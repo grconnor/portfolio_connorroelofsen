@@ -1,16 +1,30 @@
 [
-    {
-      "name": "Craft Academy",
-      "title": "Junior Software Developer",
-      "image": "https://avatars2.githubusercontent.com/u/24991422?s=280&v=4",
-      "description": "Four months of intensive studies that summarize a two year college education. A fast paced environment where you practice on team collaborations working on real life applications and situations",
-      "time": "2020 - 2020"
-    },
-    {
-      "name": "Sjödals Gymnasiet",
-      "title": "Språk introduktion / Language introduction",
-      "image": "https://gymnasiedagarna.se/wp-content/uploads/2016/08/hvitfeldtska-logo.png",
-      "description": "",
-      "time": "2018-2019"
-    }
-  ]
+  {
+    "name": "Woodridge Preparatory",
+    "title": "Preparatory education.",
+    "image": "",
+    "description": "",
+    "time": "2014 - 2015"
+  },
+  {
+    "name": "Woodridge College",
+    "title": "College education",
+    "image": "",
+    "description": "",
+    "time": "2015 - 2018"
+  },
+  {
+    "name": "Craft Academy",
+    "title": "Junior Full-Stack Developer",
+    "image": "https://avatars2.githubusercontent.com/u/24991422?s=280&v=4",
+    "description": "Four months of intensive studies that summarize a two year college education. A fast paced environment where you practice on team collaborations working on real life applications and situations",
+    "time": "August 2020 - November 2020"
+  },
+  {
+    "name": "Sjödals Gymnasiet",
+    "title": "Språk introduktion / Language introduction",
+    "image": "https://gymnasiedagarna.se/wp-content/uploads/2016/08/hvitfeldtska-logo.png",
+    "description": "",
+    "time": "2018-2019"
+  }
+]
