@@ -33,8 +33,8 @@ class Projects extends Component {
         <div class="hero-unit">
           <h1 id="projects-heading">Hi there,</h1>
           <p>
-            Below are all my recent projects I've been working on / contributed
-            towards. Feel free to visit by GitHub!
+            Below are my recent projects I've been working on / contributed
+            towards, feel free to visit my GitHub for more insight.
           </p>
           <a href="www.github.com/grconnor" class="btn btn-primary brn-large">
             Github
