@@ -31,7 +31,7 @@ const Header = () => {
             id="comingsoon-tab"
             className="ui item"
             activeStyle={{ fontWeight: "bold" }}
-            to="/cvdownload"
+            to="/pdfviewer"
           >
             CV
           </NavLink>
