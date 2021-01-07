@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import ReactDOM from "react-dom";
 import Header from "./Header";
 import Footer from "./Footer";
@@ -7,9 +7,14 @@ import MyProjects from "./MyProjects";
 import ContactMe from "./ContactMe";
 import MainPage from "./MainPage";
 import PdfViewer from "./PdfViewer";
-// import CV from "./CV";
+import { Button } from 'antd';
+import pdf from './pdf.pdf';
+import './App.css'
 
 const App = () => {
+
+  const [showPdf, setShowPdf] = useState(false)
+
   return (
     <>
       <Header />
