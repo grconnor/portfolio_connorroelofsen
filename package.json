@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@mikecousins/react-pdf": "^5.5.1",
     "@react-pdf/renderer": "^1.6.12",
+    "antd": "^4.10.0",
     "axios": "^0.20.0",
     "file-loader": "^6.2.0",
     "react": "^16.13.1",
