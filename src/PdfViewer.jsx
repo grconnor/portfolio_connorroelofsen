@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "antd/dist/antd.css";
-import "../App.css";
+import "./App.css";
 import { Modal, Button } from "antd";
-import PDF from "react-pdf-js";
+// import PDF from "react-pdf-js";
+import { usePdf } from '@mikecousins/react-pdf';
 
 const PdfViewer = ({ pdf, onCancel, visible }) => {
   return (
